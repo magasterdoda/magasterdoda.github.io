@@ -1,21 +1,14 @@
 ---
 layout: post
-title: OGRE Skin Impact Test Rig
-description:  Designed, prototyped and fabricated mechanical test rig for evaluating force impacts in collaboration with
-    six-member capstone team. Applied robust mechanical design principles, prototyping techniques and tools such as SolidWorks
-    to engineer a rig capable of delivering controlled impacts up to 2000 N and measured force responses across various protective
-    materials. Conducted requirement analysis, iterative testing, and performance analysis to meet sponsor specifications within
-    a $5000 budget and tight timeline. Presented technical rationale, design evolution and final results to project sponsor and
-    faculty judges.
+title: Engine Piston-Crankshaft Assembly
+description:  Designed and analyzed a piston–connecting rod–crankshaft–flywheel assembly for
+    a 6-cylinder, 4-stroke, 3000 cc inline engine capable of delivering at least 200 hp at up to 8,000 RPM.
+
 skills: 
-  - Mechanical Design & Prototyping
-  - Structural Analysis & Hand Calculations
-  - Finite Element Analysis (FEA)
-  - Design for Manufacturability
   - SOLIDWORKS
-  - MATLAB (Data analysis, Visualization)
-  - Manufacturing & Fabrication (Lathe, Mill, 3D Printing)
-  - Technical Documentation
+  - Finite Element Analysis (FEA) (Static, Dynamic, and Thermal)
+  - Stress, deflection, fatigue, and fracture mechanics
+  - Structural Analysis & Hand Calculations
 
 main-image: /ogre-skin.png
 ---
