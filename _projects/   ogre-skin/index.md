@@ -24,6 +24,7 @@ main-image: /ogre-title.png
 {% include image-gallery.html images="Front_view.jpg" height="400" %}
 
 ## Onshape model
+{% include image-gallery.html images="ogre-skin/FinalAssem.jpg" height="400" %}  
 {% include image-gallery.html images="FinalAssem.png" height="400" %}
 
 ## Steering and suspension
