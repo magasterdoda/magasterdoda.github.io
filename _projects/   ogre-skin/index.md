@@ -6,7 +6,7 @@ skills:
 - Solidwork
 - 3D printing
 - Onshape
-main-image: /Top_view.jpg
+main-image: /ogre-title.png
 ---
 ---
 ## Front View
