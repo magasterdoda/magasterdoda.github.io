@@ -27,7 +27,8 @@ main-image: /ogre-title.png
 - Performed hand calculations to size structural components and estimate maximum deliverable impact force
 {% include image-gallery.html images="ogre-cad-details.png" height="300" %} 
 - Created detailed SOLIDWORKS CAD models and validated designs using finite element analysis (FEA)
-{% include image-gallery.html images="ogre-lathe.png, ogre-mill.jpg, ogre-build.jpg, ogre-rig3.jpg" height="250" %} 
+{% include image-gallery.html images="ogre-lathe.png, ogre-mill.jpg" height="250" %}
+{% include image-gallery.html images="ogre-build.jpg, ogre-rig3.jpg" height="250" %} 
 - Fabricated the test rig using manual machining (lathe and mill) and additive manufacturing (3D printing)
 
 ## Results
