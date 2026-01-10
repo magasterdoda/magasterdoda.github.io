@@ -21,4 +21,5 @@ main-image: /ogre-title.png
 ---
 ---
 ## Winner
-{% include image-gallery.html images="ogreWinner.JPG" height="400" %}
+{% include image-gallery.html images="ogreWinner.jpg" height="400" %}  
+{% include image-gallery.html images="ogre-title.png.png" height="400" %}
