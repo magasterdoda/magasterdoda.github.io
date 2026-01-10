@@ -21,4 +21,4 @@ main-image: /ogre-skin.png
 ---
 ---
 ## Winner
-{% include image-gallery.html images="ogre-winner.JPG" height="400" %}
+{% include image-gallery.html images="ogreWinner.JPG" height="400" %}
