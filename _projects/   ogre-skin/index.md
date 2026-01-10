@@ -20,6 +20,12 @@ skills:
 main-image: /ogre-title.png
 ---
 ---
-## Winner
-{% include image-gallery.html images="ogreWinner.jpg" height="400" %}  
-{% include image-gallery.html images="ogre-title.png" height="400" %}
+## Front View
+{% include image-gallery.html images="Front_view.jpg" height="400" %}
+
+## Onshape model
+{% include image-gallery.html images="FinalAssem.png" height="400" %}
+
+## Steering and suspension
+{% include image-gallery.html images="Suspension_steering.png" height="400" %}
+---
