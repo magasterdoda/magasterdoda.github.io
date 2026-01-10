@@ -1,32 +1,20 @@
 ---
 layout: post
-title: OGRE Skin Impact Test Rig
-description:  Designed, prototyped and fabricated mechanical test rig for evaluating force impacts in collaboration with
-    six-member capstone team. Applied robust mechanical design principles, prototyping techniques and tools such as SolidWorks
-    to engineer a rig capable of delivering controlled impacts up to 2000 N and measured force responses across various protective
-    materials. Conducted requirement analysis, iterative testing, and performance analysis to meet sponsor specifications within
-    a $5000 budget and tight timeline. Presented technical rationale, design evolution and final results to project sponsor and
-    faculty judges.
+title: RC car
+description:  Designed, 3D printed, and assembled a remote-controlled cars including suspension, steering, customized PCB, and power transmission. Iterative CAD design and testing were used to improve durability, handling, and ease of assembly. (Picture shown above is older version)
 skills: 
-  - Mechanical Design & Prototyping
-  - Structural Analysis & Hand Calculations
-  - Finite Element Analysis (FEA)
-  - Design for Manufacturability
-  - SOLIDWORKS
-  - MATLAB (Data analysis, Visualization)
-  - Manufacturing & Fabrication (Lathe, Mill, 3D Printing)
-  - Technical Documentation
-
-main-image: /ogre-title.png
+- Solidwork
+- 3D printing
+- Onshape
+main-image: /Top_view.jpg
 ---
 ---
 ## Front View
-{% include image-gallery.html images="Front_view.jpg" height="400" %}
+{% include image-gallery.html images="ogreWinner.jpg" height="400" %}
 
 ## Onshape model
-{% include image-gallery.html images="ogre-skin/FinalAssem.jpg" height="400" %}  
 {% include image-gallery.html images="FinalAssem.png" height="400" %}
 
 ## Steering and suspension
-{% include image-gallery.html images="Suspension_steering.png" height="400" %}
+{% include image-gallery.html images="ogre-title.png" height="400" %}
 ---
