@@ -19,8 +19,6 @@ skills:
 
 main-image: /ogre-skin.png
 ---
-
 ---
-## Technical Approach  
----
-{% include image-gallery.html images="ogre-cad-details.png" height="400" %}
+## Winner
+{% include image-gallery.html images="ogre-winner.JPG" height="400" %}
