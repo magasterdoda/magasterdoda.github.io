@@ -24,11 +24,15 @@ main-image: /ogre-title.png
 - Researched relevant impact testing standards and translated sponsor needs into clear engineering requirements
 - Generated and evaluated multiple design concepts as a team, converging on a final system architecture
 - Performed hand calculations to size structural components and estimate maximum deliverable impact force
+{% include image-gallery.html images="ogre-cad-details.png" height="400" %} 
 - Created detailed SOLIDWORKS CAD models and validated designs using finite element analysis (FEA)
+{% include image-gallery.html images="ogre-lathe.png, ogre-mill.jpg, ogre-build.jpg" height="400" %} 
 - Fabricated the test rig using manual machining (lathe and mill) and additive manufacturing (3D printing)
+{% include image-gallery.html images="ogre-rig1.jpg, ogre-rig2.jpg, ogre-rig3.jpg" height="400" %} 
 
 ## Results
 ### Validated Performance and Experimental Findings
+{% include image-gallery.html images="ogre-winner.JPG" height="400" %} 
 - Spring 2024 Texas A&M Engineering Project Showcase – OGRE Skin Test Rig (3rd place overall)
 - Delivered an impact test rig capable of applying and measuring impacts up to 1,640 lbf with ±4% accuracy and 1 ms time resolution
 - Generated experimental data demonstrating up to 30% reduction in peak impact force when using OGRE Skin
