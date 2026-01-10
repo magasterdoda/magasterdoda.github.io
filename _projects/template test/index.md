@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Template
+title: Template Test
 description:  Designed, prototyped and fabricated mechanical test rig for evaluating force impacts in collaboration with
     six-member capstone team. Applied robust mechanical design principles, prototyping techniques and tools such as SolidWorks
     to engineer a rig capable of delivering controlled impacts up to 2000 N and measured force responses across various protective
