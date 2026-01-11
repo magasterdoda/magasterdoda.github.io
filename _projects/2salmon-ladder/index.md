@@ -18,6 +18,7 @@ main-image: /ladder-CAD.png
 ---
 
 ---
+
 {% include image-gallery.html images="ladder-FEA.png, ladder-stress.png, ladder-displacement.png" height="400" %}  
 ## Technical Approach
 ### Design, Analysis, and Fabrication
