@@ -1,6 +1,7 @@
 ---
 layout: post
 title: OGRE Skin Impact Test Rig
+{% include image-gallery.html images="ogre-cad-details.png" height="300" %}  
 description:  Designed, prototyped and fabricated mechanical test rig for evaluating force impacts in collaboration with
     six-member capstone team. Applied robust mechanical design principles, prototyping techniques and tools such as SolidWorks
     to engineer a rig capable of delivering controlled impacts up to 2000 N and measured force responses across various protective
