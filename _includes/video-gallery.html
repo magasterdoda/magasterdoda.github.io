@@ -1,31 +1,55 @@
 {% assign video_paths = include.videos | split: ", " %}
 {% assign gallery_height = include.height | default: "300" %}
 
-<div class="video-gallery" style="--gallery-height: {{ gallery_height }}px;">
+<div class="video-gallery autoplay" style="--gallery-height: {{ gallery_height }}px;">
   {% for video_path in video_paths %}
     {% assign video_name = video_path | strip %}
 
     {% if video_name contains 'https://' %}
       <video
-        src="{{ video_name }}"
-        controls
-        preload="metadata"
+        autoplay
+        muted
+        loop
         playsinline
+        preload="none"
         style="height: var(--gallery-height);"
       >
-        Your browser does not support the video tag.
+        <source src="{{ video_name }}" type="video/mp4">
       </video>
     {% else %}
       {% assign page_url_without_index = page.url | remove: 'index' | remove: '.html' %}
       <video
-        controls
-        preload="metadata"
+        autoplay
+        muted
+        loop
         playsinline
+        preload="none"
+        poster="{{ page_url_without_index }}{{ video_name | replace: '.mp4', '.jpg' }}"
         style="height: var(--gallery-height);"
       >
         <source src="{{ page_url_without_index }}{{ video_name }}" type="video/mp4">
-        Your browser does not support the video tag.
       </video>
     {% endif %}
   {% endfor %}
 </div>
+
+<script>
+  (function () {
+    const videos = document.querySelectorAll('.video-gallery.autoplay video');
+
+    if (!('IntersectionObserver' in window)) return;
+
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        const video = entry.target;
+        if (entry.isIntersecting) {
+          video.play().catch(() => {});
+        } else {
+          video.pause();
+        }
+      });
+    }, { threshold: 0.25 });
+
+    videos.forEach(video => observer.observe(video));
+  })();
+</script>
