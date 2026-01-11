@@ -14,7 +14,7 @@ skills:
   - Anisotropic material modeling
   - Woodworking fabrication
 
-main-image: /ogre-CAD.png
+main-image: /ladder-CAD.png
 ---
 
 ---
