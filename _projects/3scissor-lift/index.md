@@ -14,118 +14,24 @@ skills:
   - MATLAB (Data analysis, Visualization)
   - Manufacturing & Fabrication (Lathe, Mill, 3D Printing)
 
-main-image: /ogre-skin.png
+main-image: /lift-CAD.png
 ---
 
 ---
+{% include image-gallery.html images="lift-CAD.png, lift-front.png, lift-side.png, lift-top.png" height="400" %} 
 ## Technical Approach
 ### Design, Analysis, and Fabrication
-- Researched relevant impact testing standards and translated sponsor needs into clear engineering requirements
-- Generated and evaluated multiple design concepts as a team, converging on a final system architecture
-- Performed hand calculations to size structural components and estimate maximum deliverable impact force
-- Created detailed SOLIDWORKS CAD models and validated designs using finite element analysis (FEA)
-- Fabricated the test rig using manual machining (lathe and mill) and additive manufacturing (3D printing)
+- Collaborated in a three-person team to design and analyze a novel scissor lift architecture from first principles
+- Developed and evaluated load cases, performing hand calculations on critical members to estimate maximum stress and deflection
+- Modeled the complete scissor lift assembly in SOLIDWORKS, including linkages, lead-screw actuation, and platform interfaces
+- Conducted a design optimization study, introducing strategic cutouts and lightweight 3D-printed components to minimize mass while maintaining stiffness
+- Produced detailed engineering drawings to support fabrication and assembly
+- Manufactured and assembled the lift using provided raw materials, standard fasteners, and additive manufacturing
 
+---
+{% include image-gallery.html images="lift-closed.jpg, lift-open.jpg" height="400" %} 
 ## Results
 ### Validated Performance and Experimental Findings
-- Spring 2024 Texas A&M Engineering Project Showcase – OGRE Skin Test Rig (3rd place overall)
-- Delivered an impact test rig capable of applying and measuring impacts up to 1,640 lbf with ±4% accuracy and 1 ms time resolution
-- Generated experimental data demonstrating up to 30% reduction in peak impact force when using OGRE Skin
-- Results were supported by 1,000 fps high-speed video, enabling detailed impact event analysis
-
-# Header 1 
-Used for the title (already generated automatically at the top)
-## Header 2  
-Use this for the header of each section
-### Header 3 
-Use this to have subsection if needed
-
-
-## Embedding images 
-### External images
-{% include image-gallery.html images="https://live.staticflickr.com/65535/52821641477_d397e56bc4_k.jpg, https://live.staticflickr.com/65535/52822650673_f074b20d90_k.jpg" height="400"%}
-<span style="font-size: 10px">"Starship Test Flight Mission" from https://www.flickr.com/photos/spacex/52821641477/</span>  
-You can put in multiple entries. All images will be at a fixed height in the same row. With smaller window, they will switch to columns.  
-
-### Embeed images
-{% include image-gallery.html images="ogre-cad-details.png" height="400" %} 
-place the images in project folder/images then update the file path.   
-
-
-## Embedding youtube video
-The second video has the autoplay on. copy and paste the 11-digit id found in the url link. <br>
-*Example* : https://www.youtube.com/watch?v={**MhVw-MHGv4s**}&ab_channel=engineerguy
-{% include youtube-video.html id="MhVw-MHGv4s" autoplay= "false"%}
-{% include youtube-video.html id="XGC31lmdS6s" autoplay = "true" %}
-
-you can also set up custom size by specifying the width (the aspect ratio has been set to 16/9). The default size is 560 pixels x 315 pixels.  
-
-The width of the video below. Regardless of initial width, all the videos is responsive and will fit within the smaller screen.
-{% include youtube-video.html id="tGCdLEQzde0" autoplay = "false" width= "900px" %}  
-
-<br>
-
-## Adding a hozontal line
----
-
-## Starting a new line
-leave two spaces "  " at the end or enter <br>
-
-## Adding bold text
-this is how you input **bold text**
-
-## Adding italic text
-Italicized text is the *cat's meow*.
-
-## Adding ordered list
-1. First item
-2. Second item
-3. Third item
-4. Fourth item
-
-## Adding unordered list
-- First item
-- Second item
-- Third item
-- Fourth item
-
-## Adding code block
-```ruby
-def hello_world
-  puts "Hello, World!"
-end
-```
-
-```python
-def start()
-  print("time to start!")
-```
-
-```javascript
-let x = 1;
-if (x === 1) {
-  let x = 2;
-  console.log(x);
-}
-console.log(x);
-
-```
-
-## Adding external links
-[Wikipedia](https://en.wikipedia.org)
-
-
-## Adding block quote
-> A blockquote would look great if you need to highlight something
-
-
-## Adding table 
-
-| Header 1 | Header 2 |
-|----------|----------|
-| Row 1, Col 1 | Row 1, Col 2 |
-| Row 2, Col 1 | Row 2, Col 2 |
-
-make sure to leave aline betwen the table and the header
-
-
+- Met all functional requirements and design constraints, including 50 mm closed height, 200 mm extended height, 6 × 8 in footprint, 20 lb load capacity, and weight minimization
+- Achieved a final assembled mass of 791 g while supporting a 20 lb load at full extension with only 16 mm of deflection
+- Demonstrated high structural efficiency, achieving the 2nd best load-to-weight ratio among all tested teams
