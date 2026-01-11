@@ -24,10 +24,9 @@ main-image: /ladder-CAD.png
 ### Design, Analysis, and Fabrication
 - Defined functional, safety, and durability requirements based on static bodyweight loads, dynamic pull-up forces, and impact loading from repeated bar drops
 - Developed conservative load cases and targeted a safety factor of 5 to account for user variability and dynamic amplification
-- Performed hand calculations to size structural members, joints, and fasteners for bending, shear, and bearing stresses
+- Performed hand calculations to size structural members, joints, and fasteners for bending and shear stresses
 - Created detailed SOLIDWORKS CAD models of the full assembly, including joints and load paths
-- Validated the design using finite element analysis (FEA), incorporating anisotropic material properties for wood to better capture real structural behavior
-- Iterated the design to balance strength, stiffness, material efficiency, and ease of fabrication
+- Validated the design using finite element analysis (FEA), incorporating anisotropic material properties for wood
 - Fabricated and assembled the structure using standard woodworking tools and construction methods
 
 ---
