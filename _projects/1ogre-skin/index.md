@@ -19,6 +19,7 @@ skills:
 
 main-image: /ogre-main.png
 ---
+
 ---
 {% include image-gallery.html images="ogre-lathe.png, ogre-mill.jpg, ogre-build.jpg" height="300" %}  
 ## Technical Approach
@@ -28,6 +29,8 @@ main-image: /ogre-main.png
 - Performed hand calculations to size structural components and estimate maximum deliverable impact force
 - Created detailed SOLIDWORKS CAD models and validated designs using finite element analysis (FEA)
 - Fabricated the test rig using manual machining (lathe and mill) and additive manufacturing (3D printing)
+
+---
 
 {% include image-gallery.html images="ogre-winner.png, ogre-rig.jpg" height="400" %}  
 ## Results
