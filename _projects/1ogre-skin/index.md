@@ -36,3 +36,4 @@ main-image: /ogre-main.png
 - Delivered an impact test rig capable of applying and measuring impacts up to 1,640 lbf with ±4% accuracy and 1 ms time resolution
 - Generated experimental data demonstrating up to 30% reduction in peak impact force when using OGRE Skin
 - Results were supported by 1,000 fps high-speed video, enabling detailed impact event analysis
+{% include video-gallery.html videos="ogre-impact0.mp4, ogre-impact1.mp4, ogre-impact2.mp4" height="300" %}
