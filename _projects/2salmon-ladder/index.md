@@ -21,10 +21,10 @@ main-image: /ladder-title.png
 {% include image-gallery.html images="ladder-FEA.png, ladder-stress.png, ladder-displacement.png" height="400" %}  
 ## Technical Approach
 ### Design, Analysis, and Fabrication
-- Defined functional, safety, and durability requirements based on static bodyweight loads, dynamic pull-up forces, and impact loading from repeated bar drops
-- Developed conservative load cases and targeted a safety factor of 5 to account for user variability and dynamic amplification
+- Defined functional, safety, and durability requirements based on static bodyweight loads, and repeated impact forces
+- Developed conservative load cases and targeted a safety factor of 5 to account for user variability
 - Performed hand calculations to size structural members, joints, and fasteners for bending and shear stresses
-- Created detailed SOLIDWORKS CAD models of the full assembly, including joints and load paths
+- Created detailed SOLIDWORKS CAD models of the full assembly
 - Validated the design using finite element analysis (FEA), incorporating anisotropic material properties for wood
 - Fabricated and assembled the structure using standard woodworking tools and construction methods
 
@@ -32,7 +32,7 @@ main-image: /ladder-title.png
 {% include image-gallery.html images="ladder-real.jpg" height="400" %}  
 ## Results
 ### Validated Performance and Experimental Findings
-- Delivered a fully functional, outdoor-capable salmon ladder and pull-up bar structure designed for repeated high-impact athletic use
+- Delivered a fully functional, outdoor salmon ladder and pull-up bar structure designed for repeated high-impact athletic use
 - Verified analytical and FEA predictions through real-world load and impact testing
-- Demonstrated stable performance under repeated dynamic loading with no observed structural damage or excessive deflection
+- Demonstrated stable performance under repeated dynamic loading with no observed structural damage
 - Achieved a robust, safe design suitable for long-term use with minimal maintenance
