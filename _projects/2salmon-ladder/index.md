@@ -29,7 +29,7 @@ main-image: /ladder-CAD.png
 - Fabricated and assembled the structure using standard woodworking tools and construction methods
 
 ---
-{% include image-gallery.html images="ladder-real.png" height="400" %}  
+{% include image-gallery.html images="ladder-real.jpg" height="400" %}  
 ## Results
 ### Validated Performance and Experimental Findings
 - Delivered a fully functional, outdoor-capable salmon ladder and pull-up bar structure designed for repeated high-impact athletic use
