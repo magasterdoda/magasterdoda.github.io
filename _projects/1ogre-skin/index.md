@@ -17,7 +17,7 @@ skills:
   - Manufacturing & Fabrication (Lathe, Mill, 3D Printing)
   - Technical Documentation
 
-main-image: /ogre-main.png
+main-image: /ogre-title.png
 ---
 
 ---
