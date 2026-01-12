@@ -26,7 +26,6 @@ main-image: /engine-CAD-front.png
 - Incorporated cost, weight, safety, and maintainability considerations into configuration selection and optimization decisions
 
 ---
-
 {% include image-gallery.html images="engine-CAD-front.png, engine-drawing.png" height="400" %} 
 ## Results
 ### Validated Performance and Experimental Findings
