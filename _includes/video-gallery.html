@@ -1,7 +1,9 @@
 {% assign video_paths = include.videos | split: ", " %}
 {% assign gallery_height = include.height | default: "300" %}
+{% assign video_radius = include.radius | default: "10" %}
 
-<div class="video-gallery autoplay" style="--gallery-height: {{ gallery_height }}px;">
+<div class="video-gallery autoplay"
+     style="--gallery-height: {{ gallery_height }}px; --video-radius: {{ video_radius }}px;">
   {% for video_path in video_paths %}
     {% assign video_name = video_path | strip %}
 
@@ -12,7 +14,7 @@
         loop
         playsinline
         preload="none"
-        style="height: var(--gallery-height);"
+        style="height: var(--gallery-height); border-radius: var(--video-radius);"
       >
         <source src="{{ video_name }}" type="video/mp4">
       </video>
@@ -25,31 +27,10 @@
         playsinline
         preload="none"
         poster="{{ page_url_without_index }}{{ video_name | replace: '.mp4', '.jpg' }}"
-        style="height: var(--gallery-height);"
+        style="height: var(--gallery-height); border-radius: var(--video-radius);"
       >
         <source src="{{ page_url_without_index }}{{ video_name }}" type="video/mp4">
       </video>
     {% endif %}
   {% endfor %}
 </div>
-
-<script>
-  (function () {
-    const videos = document.querySelectorAll('.video-gallery.autoplay video');
-
-    if (!('IntersectionObserver' in window)) return;
-
-    const observer = new IntersectionObserver(entries => {
-      entries.forEach(entry => {
-        const video = entry.target;
-        if (entry.isIntersecting) {
-          video.play().catch(() => {});
-        } else {
-          video.pause();
-        }
-      });
-    }, { threshold: 0.25 });
-
-    videos.forEach(video => observer.observe(video));
-  })();
-</script>
