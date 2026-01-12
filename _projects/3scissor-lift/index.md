@@ -18,10 +18,12 @@ main-image: /lift-title.png
 ---
 
 ---
-{% include image-gallery.html images="lift-CAD.png, lift-front.png, lift-side.png, lift-top.png" height="400" %} 
+{% include image-gallery.html images="lift-CAD.png" height="400" %}  
+{% include image-gallery.html images="lift-front.png, lift-side.png, lift-top.png" height="200" %}  
+{% include image-gallery.html images="lift-stress.png, lift-displacement.png" height="200" %} 
 ## Technical Approach
 ### Design, Analysis, and Fabrication
-- Collaborated in a three-person team to design and analyze a novel scissor lift architecture from first principles
+- Collaborated in a three-person team to design and analyze a scissor lift architecture
 - Developed and evaluated load cases, performing hand calculations on critical members to estimate maximum stress and deflection
 - Modeled the complete scissor lift assembly in SOLIDWORKS, including linkages, lead-screw actuation, and platform interfaces
 - Conducted a design optimization study, introducing strategic cutouts and lightweight 3D-printed components to minimize mass while maintaining stiffness
