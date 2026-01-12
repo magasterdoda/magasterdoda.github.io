@@ -14,7 +14,7 @@ skills:
   - MATLAB (Data analysis, Visualization)
   - Manufacturing & Fabrication (Lathe, Mill, 3D Printing)
 
-main-image: /lift-CAD.png
+main-image: /lift-title.png
 ---
 
 ---
