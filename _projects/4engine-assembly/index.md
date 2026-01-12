@@ -29,7 +29,7 @@ main-image: /engine-CAD-front.png
 {% include image-gallery.html images="engine-CAD-front.png, engine-drawing.png" height="400" %} 
 ## Results
 ### Validated Performance and Experimental Findings
-- Designed an engine configuration capable of producing 242 horsepower at 8000 rpm as well as meeting all other requirements
+- Designed an engine configuration capable of producing 243 horsepower at 8000 rpm as well as meeting all other requirements
 - Identified critical stress, deflection, and fatigue locations across all major components, informing configuration selection and final geometry refinement
 - Selected an optimized configuration that balanced performance, weight, manufacturability, and predicted service life
 - Demonstrated sufficient flywheel inertia to maintain engine operation through compression strokes while minimizing rotational mass
