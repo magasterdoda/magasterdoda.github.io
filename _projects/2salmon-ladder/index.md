@@ -18,7 +18,6 @@ main-image: /ladder-CAD.png
 ---
 
 ---
-
 {% include image-gallery.html images="ladder-FEA.png, ladder-stress.png, ladder-displacement.png" height="400" %}  
 ## Technical Approach
 ### Design, Analysis, and Fabrication
@@ -30,7 +29,6 @@ main-image: /ladder-CAD.png
 - Fabricated and assembled the structure using standard woodworking tools and construction methods
 
 ---
-
 {% include image-gallery.html images="ladder-real.png" height="400" %}  
 ## Results
 ### Validated Performance and Experimental Findings
