@@ -19,7 +19,9 @@ main-image: /lift-title.png
 
 ---
 {% include image-gallery.html images="lift-CAD.png" height="400" %}  
+  
 {% include image-gallery.html images="lift-front.png, lift-side.png, lift-top.png" height="200" %}  
+  
 {% include image-gallery.html images="lift-stress.PNG, lift-displacement.PNG" height="200" %} 
 ## Technical Approach
 ### Design, Analysis, and Fabrication
