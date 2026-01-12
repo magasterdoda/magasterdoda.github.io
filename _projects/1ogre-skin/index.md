@@ -21,7 +21,6 @@ main-image: /ogre-main.png
 ---
 
 ---
-
 {% include image-gallery.html images="ogre-lathe.png, ogre-mill.jpg, ogre-build.jpg" height="300" %}  
 ## Technical Approach
 ### Design, Analysis, and Fabrication
@@ -32,7 +31,6 @@ main-image: /ogre-main.png
 - Fabricated the test rig using manual machining (lathe and mill) and additive manufacturing (3D printing)
 
 ---
-
 {% include image-gallery.html images="ogre-winner.png, ogre-rig.jpg" height="400" %}  
 ## Results
 ### Validated Performance and Experimental Findings
