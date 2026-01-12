@@ -1,6 +1,6 @@
 {% assign image_paths = include.images | split: ", " %}
 {% assign gallery_height = include.height | default: "300" %}
-{% assign image_radius = include.radius | default: "12" %}
+{% assign image_radius = include.radius | default: "10" %}
 
 <div class="image-gallery"
      style="--gallery-height: {{ gallery_height }}px; --image-radius: {{ image_radius }}px;">
