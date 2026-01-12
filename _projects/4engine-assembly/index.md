@@ -10,11 +10,11 @@ skills:
   - Stress, deflection, fatigue, and fracture mechanics
   - Structural Analysis & Hand Calculations
 
-main-image: /ogre-skin.png
+main-image: /engine-CAD-front.png
 ---
 
 ---
-{% include image-gallery.html images="ogre-cad-details.png" height="400" %} 
+{% include image-gallery.html images="engine-FEA-stress.png, engine-FEA-deflection.png, engine-FEA-FOS.png" height="400" %} 
 ## Technical Approach
 ### Design, Analysis, and Fabrication
 - Performed a full four-stroke thermodynamic cycle analysis for each cylinder, explicitly stating and justifying modeling assumptions to determine peak pressures and temperatures
@@ -27,7 +27,7 @@ main-image: /ogre-skin.png
 
 ---
 
-{% include image-gallery.html images="ogre-cad-details.png" height="400" %} 
+{% include image-gallery.html images="engine-CAD-front.png, engine-drawing.png" height="400" %} 
 ## Results
 ### Validated Performance and Experimental Findings
 - Identified critical stress, deflection, and fatigue locations across all major components, informing configuration selection and final geometry refinement
